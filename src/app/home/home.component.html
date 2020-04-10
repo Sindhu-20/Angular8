@@ -1,0 +1,55 @@
+
+  <div class="row">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+		<li *ngFor="let sliders of slider,let ind=index"  data-target="#myCarousel" attr.data-slide-to="{{ind}}" [ngClass]="ind==0 ? 'active' :''" class=""></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+		<div *ngFor="let sliders of slider,let ind=index" class="item" [ngClass]="ind==0 ? 'active' :''">
+		  <img src="{{sliders.img}}" alt="Image" height="250px" class="slider_img"> 
+		  <div class="carousel-caption">
+			<h3>{{sliders.title}}</h3>
+			<p>{{sliders.description}}</p>
+		  </div>      
+		</div>
+	  </div>
+
+	  <!-- Left and right controls -->
+	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	  </a>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<!--<h1 class="AlbumNames" style="color:purple;">Music Albums</h1>
+
+<img class="img" src="./assets/music2.jpg"/>
+	<div  *ngFor="let item of cats">-->
+		<!--<h3 bold> <a [routerLink]="['\Browse', item]" class="AlbumNames"> {{item}} </a> </h3>-->
+	<!--	<a [routerLink]="['\Browse', item]" class="AlbumNames"> {{item}} </a>
+	</div>
+
+<hr>-->
+ <!-- Add Image to represent music store application for home component -->
+
+
+<!--<div class="box center" *ngFor="let item of albums">
+	<img   src="./assets/music4.png"   />
+	<br/>
+	<a [routerLink]="['\Details', item.id]"> {{item.title}} </a> 	 	 
+</div>-->

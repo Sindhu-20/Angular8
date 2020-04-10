@@ -1,0 +1,5 @@
+<div class="box " *ngFor="let item of albums">
+	<img   src="./assets/music4.png"   />
+	<br/>
+     <a [routerLink]="['/Details', item.id]"> {{item.title}} </a> 	 	 
+</div>

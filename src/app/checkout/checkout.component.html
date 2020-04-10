@@ -1,0 +1,30 @@
+
+<table border="2"  cellspacing="0" cellpadding="3" width="650" BORDERCOLOR=green>
+	<tr>
+		<td>Customer Name  : </td>
+		<td> <input  [(ngModel)]="customerName"   />  </td>
+	</tr>
+	<tr>
+		<td>Email Id  : </td>
+		<td> <input  [(ngModel)]="email"   />  </td>
+	</tr>
+	<tr>
+		<td>Contact Number  : </td>
+		<td> <input  [(ngModel)]="contactNumber"   />  </td>
+	</tr>
+	<tr>
+		<td>Shipping Address : </td>
+		<td> 
+			<textarea  [(ngModel)]="shippingAddress"></textarea>  
+		</td>
+	</tr>
+	
+	<tr>	
+		<td></td>
+		<td>
+			<input type="button"  (click)="confirmOrder()" value="Confirm Order"  />
+		</td>
+	</tr>
+</table>
+
+<h3>Total Amount  :   {{grandTotal | currency: "Rs."}}</h3> 

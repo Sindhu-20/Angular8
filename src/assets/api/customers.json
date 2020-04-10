@@ -1,0 +1,66 @@
+{
+    "customers":[
+        {
+            "id"   : "1",
+            "name" : "sindhu",
+            "age"  : "26",
+            "company":"Broadridge",
+            "email" : "sindhusree20@gmail.com",
+            "mobile" : "9705566549",
+            "state": "Telengana",
+            "city" : "Hyderabad"
+        },
+        {
+            "id"   : "2",
+            "name" : "sree",
+            "age"  : "27",
+            "company":"TCS",
+            "email" : "chavasree20@gmail.com",
+            "mobile" : "6303176259",
+            "state": "Telengana",
+            "city" : "Khamman"
+
+        },
+        {
+            "id"   : "3",
+            "name" : "kartheek",
+            "age"  : "30",
+            "company":"Kireeti soft",
+            "email" : "kartheek@gmail.com",
+            "mobile" : "9491967727",
+            "state": "Telengana",
+            "city" : "Warangal"
+        },
+        {
+            "id"   : "4",
+            "name" : "swathi",
+            "age"  : "32",
+            "company":"HCL",
+            "email" : "swathi@gmail.com",
+            "mobile" : "9696969696",
+            "state": "AP",
+            "city" : "Kadapa"
+        },
+        {
+            "id"   : "5",
+            "name" : "geeta",
+            "age"  : "22",
+            "company":"Accenture",
+            "email" : "geeta@gmail.com",
+            "mobile" : "9494949494",
+            "state": "Karnataka",
+            "city" : "Bangloore"
+        },
+        {
+            "id"   : "5",
+            "name" : "naresh",
+            "age"  : "29",
+            "company":"Broadridge",
+            "email" : "naresh@gmail.com",
+            "mobile" : "9797979797",
+            "state": "Ap",
+            "city" : "Anantapur"
+        }
+
+    ]
+}

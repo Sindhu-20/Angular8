@@ -1,0 +1,36 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.row1 {
+    margin-right: 100 !important;
+    margin-left: 100 !important;
+}
+.navbar-inverse {
+    background-color: #581845;
+    border-color: #581845;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #8a6d3b;
+}
+.smec_jntu h5{
+    padding: 22px;
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+}
+.smec_jntu span{
+color:RED;
+}
+
+.logo_background{
+    color: rgb(15, 14, 14);
+    background-color: rgb(240, 169, 17);
+}

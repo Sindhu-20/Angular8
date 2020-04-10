@@ -1,0 +1,179 @@
+{
+  "albums": [
+    {
+      "id": 10,
+      "title": "Rock we selute you",
+      "category": "Rock",
+      "artist": "Chrestoper",
+      "price": "599"
+    },
+    {
+      "id": 20,
+      "title": "Greatest Hits",
+      "category": "Classical",
+      "artist": "Sree Maneesh",
+      "price": "799"
+    },
+    {
+      "id": 30,
+      "title": "Best Of Nen At Work ",
+      "category": "Pop",
+      "artist": "Martine Rose",
+      "price": "399"
+    },
+    {
+      "id": 40,
+      "title": "Black Light",
+      "category": "Jozz",
+      "artist": "Stephen",
+      "price": "599"
+    },
+    {
+      "id": 50,
+      "title": "Price God",
+      "category": "Classical",
+      "artist": "Chrestoper",
+      "price": "799"
+    },
+    {
+      "id": 60,
+      "title": "Men Sin God Grace ",
+      "category": "Classical",
+      "artist": "Chrestoper",
+      "price": "399"
+    },
+    {
+      "id": 70,
+      "title": "Last Chance ",
+      "category": "Pop",
+      "artist": "Paul kriss",
+      "price": "399"
+    }
+  ],
+  "cart": [
+    {
+      "albumId": 20,
+      "title": "Greatest Hits",
+      "price": "799",
+      "qty": 1,
+      "total": 799,
+      "cartId": "a24c78dc-7b7e-89ba-1171-536eea6d7164",
+      "id": 4
+    },
+    {
+      "albumId": 20,
+      "title": "Greatest Hits",
+      "price": "799",
+      "qty": 1,
+      "total": 799,
+      "cartId": "a24c78dc-7b7e-89ba-1171-536eea6d7164",
+      "id": 5
+    },
+    {
+      "albumId": 20,
+      "title": "Greatest Hits",
+      "price": "799",
+      "qty": 1,
+      "total": 799,
+      "cartId": "a24c78dc-7b7e-89ba-1171-536eea6d7164",
+      "id": 6
+    },
+    {
+      "albumId": 30,
+      "title": "Best Of Nen At Work ",
+      "price": "399",
+      "qty": 1,
+      "total": 399,
+      "cartId": "a24c78dc-7b7e-89ba-1171-536eea6d7164",
+      "id": 7
+    },
+    {
+      "albumId": 20,
+      "title": "Greatest Hits",
+      "price": "799",
+      "qty": "4",
+      "total": 3196,
+      "cartId": "b6e494a3-6c79-10cd-7389-43890b6b1bae",
+      "id": 8
+    },
+    {
+      "albumId": 40,
+      "title": "Black Light",
+      "price": "599",
+      "qty": "8",
+      "total": 4792,
+      "cartId": "b6e494a3-6c79-10cd-7389-43890b6b1bae",
+      "id": 9
+    },
+    {
+      "albumId": 60,
+      "title": "Men Sin God Grace ",
+      "price": "399",
+      "qty": "2",
+      "total": 798,
+      "cartId": "671d7f6f-fb6f-3319-34a9-69209dddddf4",
+      "id": 11
+    },
+    {
+      "albumId": 40,
+      "title": "Black Light",
+      "price": "599",
+      "qty": "2",
+      "total": 1198,
+      "cartId": "0de412a6-88f5-e553-bba5-f573c44b8eab",
+      "id": 12
+    }
+  ],
+  "orders": [
+    {
+      "id": 10,
+      "customerName ": "sindhu",
+      "contactNumber": "6303176259",
+      "email": "sindhu@123",
+      "shippingAddress": "abc",
+      "totalAmount": "30000",
+      "cartId": "a24c78dc-7b7e-89ba-1171-536eea6d7164",
+      "status": "success"
+    },
+    {
+      "customerName": "",
+      "email": "kartheek.a309@gmail.com",
+      "contactNumber": "09491967727",
+      "shippingAddress": "BATTLAPANAMUR",
+      "status": "Confirmed",
+      "grandTotal": 2796,
+      "cartId": "a24c78dc-7b7e-89ba-1171-536eea6d7164",
+      "id": 11
+    },
+    {
+      "customerName": "",
+      "email": "kartheek.a309@gmail.com",
+      "contactNumber": "09491967727",
+      "shippingAddress": "BATTLAPANAMUR",
+      "status": "Confirmed",
+      "grandTotal": 7988,
+      "cartId": "b6e494a3-6c79-10cd-7389-43890b6b1bae",
+      "id": 12
+    },
+    {
+      "customerName": "",
+      "email": "kartheek.a309@gmail.com",
+      "contactNumber": "09491967727",
+      "shippingAddress": "BATTLAPANAMUR",
+      "status": "Confirmed",
+      "grandTotal": 798,
+      "cartId": "671d7f6f-fb6f-3319-34a9-69209dddddf4",
+      "id": 13
+    },
+    {
+      "customerName": "",
+      "email": "sindhusree20@gmail.com",
+      "contactNumber": "09491967727",
+      "shippingAddress": "PAVAN PALACE",
+      "status": "Confirmed",
+      "grandTotal": 1198,
+      "cartId": "0de412a6-88f5-e553-bba5-f573c44b8eab",
+      "id": 14
+    }
+  ]
+}

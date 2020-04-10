@@ -1,0 +1,24 @@
+{
+    "slider": [
+      {
+        "title": "slide1",
+        "img": "/assets/slide1.jpg ",
+        "description": "Music 1"
+      },
+      {
+        "title": "slider2",
+        "img": "/assets/slude2.jpg",
+        "description": "slide"
+      },
+      {
+        "title": "slider3",
+        "img": "/assets/slide4.jpg",
+        "description": "slide3"
+      },
+      {
+          "title": "slide4",
+          "img" : "/assets/slide5.jpg ",
+          "description":"slide4"
+      }
+    ]
+  }

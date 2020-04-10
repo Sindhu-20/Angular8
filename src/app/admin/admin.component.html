@@ -1,0 +1,46 @@
+
+
+<style>
+    th {
+      background-color: #4CAF50;
+      color: white;
+      height: 10px;
+    }
+    table {
+     width: 80%;
+     }
+</style>
+
+
+<input type = "text"  [(ngModel)] = "title" placeholder = "Title" />
+<input type = "text" [(ngModel)] = "category"  placeholder = "Category"/>
+<input type = "text" [(ngModel)] = "artist" placeholder = "Artist"/>
+<input type = "text" [(ngModel)] = "price"  placeholder = "Price"/><br/><br/>
+
+<input type="button" class="button" value="Get Albums" (click)=f1() >
+<input type="button" class="button" value="Add Albums" (click)=f2()>
+<input type="button" class="button" value="Update" (click)=f3()>
+<br/><br/>
+<!--<span [style.color] = "resultcolor">{{msg}}</span><br/><br/>-->
+<table border="2"  cellspacing="0" cellpadding="10" width="550" BORDERCOLOR=green>
+    <tr>
+        <th>Album Id</th>
+        <th>Title</th>
+        <th>Category</th>
+        <th>Artist</th>
+        <th>Unit Price</th>
+    </tr>
+    <tr *ngFor = "let item of albums">
+        
+        <td>{{item.id}}</td>
+        <td>{{item.title}}</td>
+        <td>{{item.category}}</td>
+        <td>{{item.artist}}</td>
+        <td>{{item.price}}</td>
+        <td>
+            <a href="#" (click)="f3(item.id)">Select</a><span>&nbsp;&nbsp;</span>
+            <a href="#" (click)="f2(item.id)">Remove</a><span>&nbsp;&nbsp;</span>
+        
+        </td>
+    </tr>
+</table>

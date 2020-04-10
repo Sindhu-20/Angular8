@@ -1,0 +1,15 @@
+
+
+<div>
+	<img />
+	
+	Album Title :  {{albumObj.title | titlecase}}  <br/>
+	Artist Name :  {{albumObj.artist}}  <br/>
+	Category Name :  {{albumObj.category | uppercase}}  <br/>
+	Unit Price :  {{albumObj.price | currency : "Rs."}}  <br/>
+	Quantity :  <input type="text" [(ngModel)]="qty"  />
+	<br/><br/>
+	
+	<input type="button"  value="Add to Cart"   (click)="addToCart()"    />	
+ </div>
+

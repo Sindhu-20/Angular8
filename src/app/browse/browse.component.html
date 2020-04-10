@@ -1,0 +1,10 @@
+
+<h3>Albums available in {{catName}} category</h3>
+
+<p>Count : {{ albums.length }}</p>
+
+<div *ngFor="let item of albums">
+	<img   src="./assets/music4.png" />
+	<br/>
+	 <a [routerLink]="['/Details', item.id]"> {{item.title}} </a> 	 
+</div>

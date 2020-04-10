@@ -1,0 +1,30 @@
+
+<input type="button" (click)="checkOut()" value="Check Out"  />
+<table border="2"  cellspacing="0" cellpadding="3" width="650" BORDERCOLOR=green>
+    <tr>
+        <th> SNo </th>
+		<th> Item </th>
+		<th> Price </th>
+		<th> Quantity </th>
+        <th> Total </th>
+        
+    </tr>   
+	<tr *ngFor="let item of cartItems; let i = index;">
+		<td> {{i + 1}} </td>
+		<td> {{item.title}} </td>
+		<td> {{item.price}} </td>
+		<td> {{item.qty}} </td>
+		<td> {{item.total}} </td>
+		<td>
+			<a href="javascript:void(0);" 
+			(click)="removeItem(item.id)">Remove from Cart</a>
+		</td>
+	</tr>
+	
+	<tr>
+		<td colspan="15">
+			Grand Total : {{grandTotal | currency:"Rs."}}
+		</td>
+	</tr>
+</table>
+
